@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:saddle"
+    },
+    {
+      "item": "moosemod:antlers"
+    }
+  ],
+  "result":
+  {
+    "item": "moosemod:moose_saddle",
+    "count": 1
+  }
+}

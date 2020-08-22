@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:ice"
+    },
+    "y":
+    {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result":
+  {
+    "item": "moosemod:permafrost_block",
+    "count": 1
+  }
+}

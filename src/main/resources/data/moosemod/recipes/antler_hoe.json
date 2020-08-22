@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "yyx",
+    "xzx",
+    "xzx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:air"
+    },
+    "y":
+    {
+      "item": "moosemod:antlers"
+    },
+    "z":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "moosemod:antler_hoe",
+    "count": 1
+  }
+}

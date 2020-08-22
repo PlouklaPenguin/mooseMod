@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "moosemod:permafrost_block"
+  },
+  "result": "minecraft:dirt",
+  "experience": 1.0,
+  "cookingtime": 200
+}

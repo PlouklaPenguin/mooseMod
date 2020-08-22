@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "moosemod:raw_moose_meat"
+  },
+  "result": "moosemod:moose_meat",
+  "experience": 0.0,
+  "cookingtime": 200
+}

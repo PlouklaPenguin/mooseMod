@@ -10,7 +10,7 @@
   {
     "x":
     {
-      "item": "moosemod:green_ingot"
+      "tag": "forge:ingots/green.json"
     }
   },
   "result":

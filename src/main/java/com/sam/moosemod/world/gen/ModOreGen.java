@@ -2,7 +2,8 @@ package com.sam.moosemod.world.gen;
 
 
 import com.sam.moosemod.MooseMod;
-import com.sam.moosemod.utl.RegistryHandler;
+import com.sam.moosemod.init.ModBlocks;
+
 import net.minecraft.block.BlockState;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;
@@ -24,7 +25,7 @@ public class ModOreGen {
         for (Biome biome : ForgeRegistries.BIOMES) {
 
             genOre(biome, 10, 3, 5, 35, OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    RegistryHandler.GREEN_ORE.get().getDefaultState(), 4);
+                    ModBlocks.GREEN_ORE.get().getDefaultState(), 4);
         }
     }
     private static void genOre(Biome biome, int count, int bottomOffset, int topOffset, int max, OreFeatureConfig.FillerBlockType filler,

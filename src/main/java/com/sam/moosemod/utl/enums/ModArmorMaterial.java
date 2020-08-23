@@ -1,7 +1,8 @@
-package com.sam.moosemod.armor;
+package com.sam.moosemod.utl.enums;
 
 import com.sam.moosemod.MooseMod;
-import com.sam.moosemod.utl.RegistryHandler;
+import com.sam.moosemod.init.ModItems;
+
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.crafting.Ingredient;
@@ -15,7 +16,7 @@ import java.util.function.Supplier;
 public enum ModArmorMaterial implements IArmorMaterial {
 
     GREEN(MooseMod.MOD_ID + ":green", 32, new int[] { 9, 11, 12, 8 }, 50,
-            SoundEvents.ITEM_ARMOR_EQUIP_IRON, 2.0f, () -> { return Ingredient.fromItems(RegistryHandler.GREEN.get()); }, 3);
+            SoundEvents.ITEM_ARMOR_EQUIP_IRON, 2.0f, () -> { return Ingredient.fromItems(ModItems.GREEN.get()); }, 3);
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] { 11, 16, 15, 13 };
     private final String name;
@@ -78,7 +79,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
     }
 
     @Override
-    public float func_230304_f_() {
+    public float getKnockbackResistance() {
         return this.knockbackResistance;
     }
 }

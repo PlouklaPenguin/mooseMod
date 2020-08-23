@@ -1,16 +1,18 @@
-package com.sam.moosemod.tools;
+package com.sam.moosemod.utl.enums;
 
-import com.sam.moosemod.utl.RegistryHandler;
+
+import com.sam.moosemod.init.ModItems;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
+import java.rmi.registry.RegistryHandler;
 import java.util.function.Supplier;
 
 
 public enum ModItemTier implements IItemTier {
 
     ANTLER(3, 1000, 9.6f, 0.0f, 50, () -> {
-        return Ingredient.fromItems(RegistryHandler.ANTLERS.get());
+        return Ingredient.fromItems(ModItems.ANTLERS.get());
     });
 
     private final int harvestLevel;
